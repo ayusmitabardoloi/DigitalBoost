@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DigitalBoost | Bento Aesthetic</title>
+    <!-- Inter Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Preloader -->
+<div id="preloader">
+    <div class="loader"></div>
+</div>
+
+<div class="container">
+    <!-- Header -->
+    <header>
+        <a href="#" class="logo">DigitalBoost</a>
+        <nav class="nav-links">
+            <a href="#services">Services</a>
+            <a href="#work">Work</a>
+            <a href="#contact" class="btn btn-primary">Let's Talk</a>
+        </nav>
+    </header>
+
+    <!-- Bento Grid (Hero + Intro) -->
+    <main>
+        <section class="bento-grid">
+            <!-- Main Hero Block -->
+            <div class="bento-box span-2-col span-2-row bg-primary">
+                <h1 class="text-32" style="font-size: clamp(32px, 5vw, 48px); margin-bottom: var(--space-4);">Supercharge your digital growth.</h1>
+                <p class="text-16" style="margin-bottom: var(--space-6);">We build awareness, drive traffic, and grow sales through considered digital marketing and modular strategies.</p>
+                <div style="margin-top: auto;">
+                    <a href="#contact" class="btn btn-primary">Start your project</a>
+                </div>
+            </div>
+
+            <!-- Stats Block -->
+            <div class="bento-box">
+                <h3 class="text-32 font-bold counter" data-target="500">0</h3>
+                <p class="text-14 text-muted mt-2">Projects Completed Successfully</p>
+            </div>
+
+            <!-- Image Block -->
+            <div class="bento-box" style="padding: 0;">
+                <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=2070&auto=format&fit=crop" alt="Team" style="width: 100%; height: 100%; object-fit: cover;">
+            </div>
+
+            <!-- Services Overview -->
+            <div class="bento-box span-2-col bg-secondary">
+                <h2 class="text-24" style="margin-bottom: var(--space-2);">Comprehensive Solutions</h2>
+                <p class="text-14" style="opacity: 0.9;">Tailored marketing strategies that connect with your audience and deliver proven ROI.</p>
+            </div>
+        </section>
+
+        <!-- Bento Grid (Services & Work) -->
+        <section id="services" class="bento-grid">
+            
+            <div class="bento-box span-full">
+                <h2 class="text-32">Our Capabilities</h2>
+            </div>
+
+            <div class="bento-box span-2-col">
+                <h3 class="text-20">SEO Optimization</h3>
+                <p class="text-14 text-muted" style="margin-top: var(--space-2); margin-bottom: var(--space-4);">Rank higher in search results and drive organic traffic to your website with our proven methodologies.</p>
+                <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=2015&auto=format&fit=crop" alt="SEO" class="bento-img">
+            </div>
+
+            <div class="bento-box">
+                <h3 class="text-20">Social Media</h3>
+                <p class="text-14 text-muted" style="margin-top: var(--space-2);">Engage your audience and build brand loyalty across platforms.</p>
+            </div>
+
+            <div class="bento-box">
+                <h3 class="text-20">Content Marketing</h3>
+                <p class="text-14 text-muted" style="margin-top: var(--space-2);">Create compelling content that attracts and converts visitors.</p>
+            </div>
+
+            <div class="bento-box bg-primary">
+                <h3 class="text-20">PPC Ads</h3>
+                <p class="text-14" style="margin-top: var(--space-2);">Get instant visibility and ROI with precisely targeted ad campaigns.</p>
+            </div>
+
+            <div class="bento-box">
+                <h3 class="text-20">Analytics</h3>
+                <p class="text-14 text-muted" style="margin-top: var(--space-2);">Data-driven insights to measure success.</p>
+            </div>
+
+            <div class="bento-box span-2-col">
+                <h3 class="text-20">Email Campaigns</h3>
+                <p class="text-14 text-muted" style="margin-top: var(--space-2);">Nurture leads and drive sales with targeted, high-converting email sequences.</p>
+            </div>
+        </section>
+
+        <!-- Bento Grid (Contact & Testimonial) -->
+        <section id="contact" class="bento-grid">
+            <div class="bento-box span-2-col bg-secondary">
+                <h2 class="text-24">"DigitalBoost transformed our online presence. Our sales doubled in 6 months."</h2>
+                <div style="margin-top: auto; display: flex; align-items: center; gap: var(--space-3);">
+                    <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=1522&auto=format&fit=crop" alt="Jane Doe" style="width: 48px; height: 48px; border-radius: 50%;">
+                    <div>
+                        <p class="text-14 font-semibold">Jane Doe</p>
+                        <p class="text-12" style="opacity: 0.8;">CEO, TechCorp</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bento-box span-2-col bg-primary">
+                <h2 class="text-24" style="margin-bottom: var(--space-4);">Ready to grow?</h2>
+                <form id="contactForm">
+                    <input type="email" class="form-input" placeholder="Enter your email" required>
+                    <button type="submit" class="btn btn-primary" style="width: 100%;">Let's Talk</button>
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p class="text-14">&copy; 2026 DigitalBoost. Designed with Bento.</p>
+    </footer>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
